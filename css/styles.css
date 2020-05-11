@@ -113,7 +113,7 @@ header > nav > ul {
 
 .bottom-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 5rem auto 0 auto;
     width: 60%;
 }
@@ -153,4 +153,31 @@ header > nav > ul {
     margin-bottom: 1rem;
     background-color: #F1C40F;
     font-size: 1.2rem;
+}
+
+/* FOOTER STYLES */
+footer {
+    width: 60%;
+    margin: 3rem auto 0 auto;
+    background-color: #DDDDDD;
+    padding-right: 0.5rem;
+}
+
+footer > nav {
+    display: flex;
+    height: 4rem;
+    padding-top: 1rem;
+    
+}
+
+footer > nav > ul {
+    display: flex;
+    margin-left: auto;
+    width: 15%;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+footer > p {
+    text-align: right;
 }
