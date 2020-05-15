@@ -165,7 +165,7 @@ footer {
 
 footer > nav {
     display: flex;
-    height: 4rem;
+    height: 2rem;
     padding-top: 1rem;
     
 }
@@ -180,4 +180,5 @@ footer > nav > ul {
 
 footer > p {
     text-align: right;
+    height: 2rem;
 }
